@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <div class="play-music">
+      <div class="music-name">
+        <img class="imgSong" src="assets/img/image-error.jpg" alt="" />
+        <div class="name-song-music">
+          <a class="nameSong" href="#"><b>Name song</b></a>
+          <a class="nameSinger" href="#">Name singer</a>
+        </div>
+        <i class="fa-regular fa-heart"></i>
+      </div>
+      <div class="music-timeline">
+        <div class="item">
+          <div class="btn-toggle-shuffle" title="shuffle">
+            <i class="fa-solid fa-shuffle fa-lg"></i>
+          </div>
+          <div class="btn-toggle-prev" title="prev">
+            <i class="fa-solid fa-backward fa-lg"></i>
+          </div>
+          <div class="btn-toggle-play">
+            <i
+              class="fa-solid fa-circle-pause fa-2xl icon-pause"
+              style="color: #ffffff" title="pause"
+            ></i>
+            <i
+              class="fa-solid fa-circle-play fa-2xl icon-play"
+              style="color: #ffffff" title="play"
+            ></i>
+          </div>
+          <div class="btn-toggle-next" title="next">
+            <i class="fa-solid fa-forward fa-lg"></i>
+          </div>
+          <div class="btn-toggle-repeat " title="repeat">
+            <i class="fa-solid fa-repeat fa-lg"></i>
+          </div>
+        </div>
+        <input
+          id="progress"
+          class="progress"
+          type="range"
+          value="0"
+          step="1"
+          min="0"
+          max="100"
+        />
+        <!-- Mucsic timeline -->
+      </div>
+      <div class="music-option">
+        <i class="fa-solid fa-list"></i>
+        <i class="fa-solid fa-italic"></i>
+        <i class="fa-solid fa-headphones"></i>
+        <i class="fa-solid fa-volume-low"></i>
+
+        <div class="volume-slider">
+          <input
+            type="range"
+            min="0"
+            max="100"
+            value="50"
+            class="slider"
+            id="volumeRange"
+          />
+        </div>
+      </div>
+      <audio id="audio" src=""></audio>
+    </div>
+    <div class="nav">
+      <i class="fa-solid fa-house fa-xl"></i>
+      <b style="color: #838383">Home</b>
+      <br />
+      <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+      <b style="color: #838383">Search</b>
+    </div>
+    <div class="play-list">
+      <i class="fa-solid fa-bars-staggered fa-xl"></i>
+      <b style="color: #838383"> Your libary</b>
+      <div class="creat-playlist">
+        <b>Create your first play-list</b>
+        <p>It's easy, we'll help you</p>
+        <button>Create playlist</button>
+      </div>
+      <div class="podcasts">
+        <b>Let's find some podcasts to follow</b>
+        <p>We'll keep you updated on new episodes</p>
+        <button>Browse podcasts</button>
+      </div>
+    </div>
+    <div class="list-music">
+      <div class="header">
+        <div class="account">
+          <!-- Render Accounts -->
+          <!-- <img src="../assets/img/image-error.jpg" alt="" /> -->
+        </div>
+        <button>Explore Premium</button>
+        <button>Install App</button>
+      </div>
+      <h1>GOOD MORNING</h1>
+      <div class="album">
+        <!-- Render Albums -->
+        <!-- <div class="name-album">
+            <img src="../assets/img/image-error.jpg" alt="" />
+            <b>Name album</b>
+          </div> -->
+      </div>
+      <h1>YOUR TOP MIXES</h1>
+      <div class="songs">
+        <!-- Render Albums -->
+        <!-- <div class="name-song">
+            <img src="../assets/img/image-error.jpg" alt="" />
+            <b>Name song</b>
+            <p>Name singer</p>
+          </div>        -->
+      </div>
+      <h1>YOUR TOP MIXES</h1>
+      <h1>YOUR TOP MIXES</h1>
+      <h1>YOUR TOP MIXES</h1>
+      <h1>YOUR TOP MIXES</h1>
+      <h1>YOUR TOP MIXES</h1>
+      <h1>YOUR TOP MIXES</h1>
+      <h1>YOUR TOP MIXES</h1>
+      <h1>YOUR TOP MIXES</h1>
+      <h1>YOUR TOP MIXES</h1>
+      <h1>YOUR TOP MIXES</h1>
+      <h1>YOUR TOP MIXES</h1>
+      <h1>YOUR TOP MIXES</h1>
+      <h1>YOUR TOP MIXES</h1>
+      <h1>YOUR TOP MIXES</h1>
+      <h1>YOUR TOP MIXES</h1>
+      <h1>YOUR TOP MIXES</h1>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/7a215b7bf9.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="javascript/index.js"></script>
+  </body>
+</html>
