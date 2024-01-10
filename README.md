@@ -1,5 +1,5 @@
 ## Overview
-Clone website Spotify music use HTML, CSS, and Javascript for development
+Clone the Spotify Music website using HTML, CSS, and JavaScript for development
 
 **Things I learned include:**
 HTML, CSS, JavaScript
